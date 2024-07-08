@@ -1,6 +1,6 @@
 // COUNTDOWN
 
-var launchDate = new Date("Jul 14, 2024 15:30:00").getTime();
+var launchDate = new Date("Jul 14, 2024 12:00:00").getTime();
 
 const oneSecond = 1000
 const oneMinute = 60 * oneSecond
@@ -29,7 +29,7 @@ var countdown = setInterval( function () {
 
   if (difference < 0) {
     clearInterval(countdown);
-    document.getElementById("time").textContent = "Welcome.";
+    document.getElementById("time").textContent = "Welcome- BeanGreenhouse.aternos.me";
   }
   
 })
