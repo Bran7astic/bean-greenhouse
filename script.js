@@ -1,6 +1,6 @@
 // COUNTDOWN
 
-var launchDate = new Date("Jul 13, 2024 15:30:00").getTime();
+var launchDate = new Date("Jul 14, 2024 15:30:00").getTime();
 
 const oneSecond = 1000
 const oneMinute = 60 * oneSecond
